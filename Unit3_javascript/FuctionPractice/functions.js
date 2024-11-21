@@ -6,7 +6,7 @@
 // into the coding lauguage, All we need to do is pass in data
 
 // examples
-var className= 'codingclass'
+var className = 'codingclass'
 console.log('Coding class.')
 
 // user-defined fuctions- These are custom instructions written by 
@@ -14,7 +14,7 @@ console.log('Coding class.')
 
 // how do we write a user-defined fuction?
 
-function exampleFuction(){
+function exampleFuction() {
     console.log('the fuction script is connected.')
 }
 
@@ -23,4 +23,16 @@ function exampleFuction(){
 // telling the computer the instruction- NOT to actully run it.
 
 // we access or call a fuction by writing its name.
-exampleFuction()
+//exampleFuction()
+
+let accountBalance=1000
+
+function depositMoney(depositAmount) {
+    let NewBalance = accountBalance + depositAmount ;
+    document.getElementById('data').innerHTML = NewBalance;
+}
+
+// data tha we want to manipulate goes inside of the
+// round brackets.
+//the instruction on what we want to do with the data
+// goes inside of the curly brackets.

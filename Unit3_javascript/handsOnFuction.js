@@ -13,7 +13,7 @@ function pizzaParty(name, topping) {
     console.log("your custom pizza will have " + topping + "on it")
 }
 
-pizzaParty('MIKE' , 'veggies')
+pizzaParty('MIKE', 'veggies')
 
 // conditional statements in Js
 
@@ -24,7 +24,7 @@ pizzaParty('MIKE' , 'veggies')
 
 function pizzaPartyInvitation(name) {
     let guess = "mike";
-    if (name !=guest) {
+    if (name != guest) {
         console.log("this name is not on the list");
     } else {
         console.log("welcome to the party");
@@ -36,19 +36,32 @@ pizzaPartyInvitation('Ian')
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Activity
+function HoursToMinutes(hour) {
+    console.log(hour * 60 + 'minutes')
 
-//1.Create a fuction that will convert a number
+}
+HoursToMinutes(15)
+
+
+
+
+
+
+
+
+
+
+//conditional statements
+// if/else keywords used create specific
+// outcomes based on the data the fuction recieves.
+
+function timeManagementSystem(){
+    if 1 hour(s) is equal to 60 minute(s).
+    2 hour(s) is equal to 120 minute(s).
+    3 hour(s) is equal to 180 minute(s).
+    4 hour(s) is equal to 240 minute(s).
+    5 hour(s) is equal to 300 minute(s).("unfortunately you will not get paid full time pay .")
+        
+    }
+}

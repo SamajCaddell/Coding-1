@@ -11,8 +11,8 @@
 // JS array is a data type for collecting and storing
 // other data types, including other lists.
 
-var name1 = "Samaj":
-var grocery = [apple, milk, water"];
+var name1 = "Samaj"
+var grocery = ["apple, milk, water"]
 
 // An array can store multiple data types
 var generalists = [name1, grocery, 132323, 23.34, true];
@@ -40,3 +40,39 @@ console.log(generalists)
 //Length() method - This method counts the number of data
 //Inside of a list
 console.log(generalists.length)
+
+// Arrays - a special data type for
+//  collecting and storing data inside
+//  of a variable
+
+//we declare an array by giving it
+//  a variable name and then assing it
+//  squre brackets
+var numbers = [1, 2343, 23, 23435, 234]
+var randomData = [true, 'name', number, numbers]
+
+// what is a method?
+// a method is a special type of function
+//  that works on array/lists(...and objects)
+
+// push()-this function pushes new
+//  data into the array
+var snowGear = ['gloves', 'hats', 'mittens', 'coats']
+snowGear.push('snowboard')
+console.log(snowGear)
+// pop()- this function is for removing and item from an array.
+// POP does not need a argrument. It will always
+// remove the last item in the array.
+snowGear.pop()
+console.log(snowGear)
+// LIFO= lastin in,first out
+
+// length- counts the items in the array
+// Length does NOT take any argruments
+
+console.log
+
+// Remove the hats string from the list
+// use W3sxhools or gooogle to find a method
+// to remove the hats from the array
+replace(hats)

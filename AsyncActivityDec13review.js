@@ -41,7 +41,7 @@ function membershipDiscount() {
 
     if (member == "supershopper") {
         console.log("you are a super shopper.you get 10 percent off.");
-    } else if(){
+    } else if () {
 
     }
 }
